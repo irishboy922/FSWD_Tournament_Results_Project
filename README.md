@@ -14,7 +14,7 @@ $ git clone https://github.com/irishboy922/FSWD_Tournament_Results_Project.git
 
 The program should be run in a Vagrant Virtual Machine using Virtual Box. If you do not have [Vagrant](https://www.vagrantup.com/downloads.html) or [Virtual Box](https://www.virtualbox.org/wiki/Downloads) installed and setup, please first visit the links I have provided to download and install them (both sites have good installation instructions).
 
-Once you have Vagrant and Virtual Box installed, you will need to ` cd ` to the path where you downloaded and unzipped or cloned the "FSWD_Tournament_Results_Project" folder in your terminal window. Once you are in that directory you will need to type in the following command to get set up a new Vagrant virtual machine environment based on the ` Vagandfile ` and ` pg_config.sh ` settings included in the "FSWD_Tournament_Results_Project" project folder:
+Once you have Vagrant and Virtual Box installed, you will need to ` cd ` to the path where you downloaded and unzipped or cloned the "FSWD_Tournament_Results_Project" folder from your terminal window. Once you are in that directory you will need to type in the following command to get set up a new Vagrant virtual machine environment based on the ` Vagandfile ` and ` pg_config.sh ` settings included in the "FSWD_Tournament_Results_Project" project folder:
 ```
 $ vagrant up
 ```
