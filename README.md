@@ -2,14 +2,19 @@
 
 For the Tournament Planner project, we were asked to write a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament. The game tournament requires the use of the Swiss system for pairing up players in each round: players are not eliminated, and each player should be paired with another player with the same number of wins, or as close as possible. To complete the project we had to define the database schema and write the python code that will make use of the database.
 
-## How to Run the Program
+## How to Download the Files
 
 First you will need to either download or clone the project files to your local machine.
-For cloning, use the following url: []()
+To clone this project to your computer, open a terminal window and ' cd ' to the directory you would like to save the files. Then run the following command:
+```
+$ git clone
+```
+
+## How to Run the Program
 
 The program should be run in a Vagrant Virtual Machine using Virtual Box. If you do not have [Vagrant](https://www.vagrantup.com/downloads.html) or [Virtual Box](https://www.virtualbox.org/wiki/Downloads) installed and setup, please first visit the links I have provided to download and install them (both sites have good installation instructions).
 
-Once you have Vagrant and Virtual Box installed, you will need to open a new terminal window. Next you will need to ' cd ' to the path where you downloaded and unzipped or cloned the "FSWD_Tournament_Results_Project" folder. Once you are in that directory you will need to type in the following command to get set up a new Vagrant virtual machine environment based on the ' Vagandfile ' and ' pg_config.sh ' settings included in the "FSWD_Tournament_Results_Project" project folder:
+Once you have Vagrant and Virtual Box installed, you will need to ' cd ' to the path where you downloaded and unzipped or cloned the "FSWD_Tournament_Results_Project" folder in your terminal window. Once you are in that directory you will need to type in the following command to get set up a new Vagrant virtual machine environment based on the ' Vagandfile ' and ' pg_config.sh ' settings included in the "FSWD_Tournament_Results_Project" project folder:
 ```
 $ vagrant up
 ```
