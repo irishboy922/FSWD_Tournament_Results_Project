@@ -7,7 +7,7 @@ For the Tournament Planner project, we were asked to write a Python module that 
 First you will need to either download or clone the project files to your local machine.
 To clone this project to your computer, open a terminal window and ' cd ' to the directory you would like to save the files. Then run the following command:
 ```
-$ git clone
+$ git clone https://github.com/irishboy922/FSWD_Tournament_Results_Project.git
 ```
 
 ## How to Run the Program
@@ -32,3 +32,6 @@ Next move into the ' tournament ' directory by typing in the command ' cd tourna
 Now you should be back at the ' vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ ' directory in your terminal window. From here just execute the command ' python tournament_test.py ' to run the test program and get the results. Note that the results will be printed to the terminal window.
 
 Enjoy!
+
+## License
+[MIT License](https://opensource.org/licenses/MIT)
